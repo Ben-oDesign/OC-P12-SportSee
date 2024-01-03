@@ -1,0 +1,39 @@
+
+
+.welcome {
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.welcome_title{
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-bottom: 41px;
+    text-align: left;
+}
+
+.welcome_sentence{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    color: black;
+}
+
+.first-name {
+    color: #FF0101;
+}
+
+@media screen and (max-width : 1430px){
+    .welcome_title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}

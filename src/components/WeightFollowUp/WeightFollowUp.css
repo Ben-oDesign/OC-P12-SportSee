@@ -1,0 +1,75 @@
+
+.bar-chart_container{
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    position: relative;
+    background-color: #FBFBFB;
+    margin-bottom: 28px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.title_barchart{
+    position: absolute;
+    top:24px;
+    left: 32px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500 ;
+    font-size:15px ;
+}
+
+.barchart_legend{
+    position: absolute;
+    top:-75px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px ;
+    font-weight: 500;
+    width: 277px;
+}
+
+.dot_weight{
+    color: #282D30;
+    font-size: 20px;
+}
+
+.dot_calories{
+    color: #E60000;
+    font-size: 20px;
+}
+
+.span_weight, .span_calories{
+    color: #74798C;
+    font-size: 15px;
+}
+
+.custom-tooltip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #E60000;
+    width: 39px;
+    height: 63px;
+    font-size: 7px;
+}
+
+.recharts-layer{
+    border-radius: 3px;
+}
+
+.recharts-bar-rectangle{
+    border-radius: 3px;
+}
+
+.recharts-rectangle{
+    border-radius: 3px;
+}

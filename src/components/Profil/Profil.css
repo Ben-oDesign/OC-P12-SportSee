@@ -1,0 +1,10 @@
+.profilchart_container{
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: #282D30; 
+    border-radius : 5px;
+    width : 100%;
+    height : 100%;
+}
