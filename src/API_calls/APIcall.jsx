@@ -12,7 +12,7 @@ export async function fetchData(userId, setStatistics, resource) {
         return; // ou gérer l'erreur d'une autre manière selon vos besoins
     }
 
-    if (process.env.REACT_APP_MOCK_DATA) {
+    if (process.env.REACT_APP_MOCK_DATA === true) {
         // REACT_APP_MOCK_DATA is true
         return new Promise(async (resolve, reject) => {
             if (resource === "activity") {

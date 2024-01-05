@@ -32,10 +32,8 @@ class DurationsChart extends React.Component {
     dataModel.fetchData(userId, "average-sessions")
         .then(response => {
           this.setState({ statistics: response });
-          console.info(response);
         })
         .catch(error => {
-          console.info(error);
         });
   }
 

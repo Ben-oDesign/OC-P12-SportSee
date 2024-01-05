@@ -11,8 +11,6 @@ class DataModel {
     fetchData = async (userId, resource) => {
         const userIdNumber = parseInt(userId, 10);
 
-        console.log('userId : ', userId);
-
         if (isNaN(userIdNumber)) {
             console.error('userId n\'est pas une chaîne de caractères représentant un nombre.');
             return Promise.reject(new Error('userId is not a valid number.'));
